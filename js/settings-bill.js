@@ -67,7 +67,6 @@ function BillWithSettings() {
     if (getTotalCost() >= getWarningLevel()) {
       return "warning"
     }
-
   }
 
   return {
